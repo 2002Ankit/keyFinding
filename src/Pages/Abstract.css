@@ -1,0 +1,30 @@
+.abstractPage-bg{
+    /* background-image: url("../assets/abstNewImg.jpg"); */
+    background-color: #F2F3F4;
+    width: 100vw;       
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  
+    
+}
+
+.bg-ZeroFilterData{
+    background-color: #F2F3F4 ;
+    /* background-image: url("../assets/abstNewImg.jpg"); */
+    width: 100vw;
+    height: 100%;
+   
+}
+
+.abstract-searchBar{
+    background: transparent;
+    outline: none;
+    box-shadow: 3px 3px 2px 1px #afb0b0;
+    color: #5D6D7E ;
+}
+
+.abstract-heading{
+    color: #808B96;
+}
+

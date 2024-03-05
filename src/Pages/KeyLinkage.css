@@ -1,0 +1,117 @@
+.key-linkage-container {
+  width: 100vw;
+  height:100vh;
+  /* background-color: #E8F8F5; */
+ background-size: cover;
+ position: relative;
+}
+
+.key-linkage-card {
+  width: 60vw;
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  column-gap: 2rem;
+  position: relative;
+  top: 3rem;
+ 
+
+}
+
+.linkage-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #626567;
+  /* margin-left: 2rem; */
+  /* margin-top: 2rem; */
+  /* position: relative;
+    top: 6rem;
+    left: ; */
+}
+
+.linkage-brand {
+  color: #808B96;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-left: 2rem;
+}
+
+.linkage-category {
+
+  margin-left: 2rem;
+  color: #808B96;
+  
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.linkBrand-value,
+.linkCat-value {
+  color: #808B96;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.linkage-price,
+.linkage-rating,
+.linkage-discount {
+  color: #808B96;  
+  font-size: 1.2rem;
+  font-weight: 500;;
+
+}
+
+.linkage-description {
+  color: #5D6D7E;
+  margin-left: 2rem;
+  font-size: 18px;
+}
+
+.linkage-info span {
+  margin-right: 10px;
+}
+
+/* .linkage-description {
+    margin-top: 10px;
+  } */
+
+.linkage-description span {
+  margin-right: 10px;
+}
+
+
+.linkage-action button {
+  background-color: #1890ff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.show-key-downArrow .show-key-UpArrow{
+position: relative;
+bottom: 2px;
+}
+
+.linkage-action button:hover {
+  background-color: #40a9ff;
+}
+
+.vos-viewer-container {
+  position: relative;
+  width: 80vw;
+  height: 35rem; 
+  margin-top: 2rem;
+  box-shadow: 2px 2px 3px 3px rgb(181, 222, 237);
+}
+
+
