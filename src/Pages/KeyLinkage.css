@@ -32,24 +32,27 @@
     left: ; */
 }
 
-.linkage-brand {
+.linkage-info{
+ max-width: 60vw;
+  position: relative;
+  color: #808B96;
+  font-size: 1.2rem;
+  font-weight: 500;
+  display: flex;
+    flex-wrap: wrap;
+}
+.linkage-brand, .linkage-category{
   color: #808B96;
   font-size: 1.2rem;
   font-weight: 500;
   margin-left: 2rem;
 }
 
-.linkage-category {
 
-  margin-left: 2rem;
-  color: #808B96;
-  
-  font-size: 1.2rem;
-  font-weight: 500;
-}
 
 .linkBrand-value,
 .linkCat-value {
+  position: relative;
   color: #808B96;
   font-size: 1.1rem;
   font-weight: 400;
@@ -114,4 +117,8 @@ bottom: 2px;
   box-shadow: 2px 2px 3px 3px rgb(181, 222, 237);
 }
 
-
+@media(max-width:800px){
+  .linkage-action button{
+    padding: 6px 6px;
+  }
+}
