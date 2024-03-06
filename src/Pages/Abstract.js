@@ -7,6 +7,7 @@ import "./Abstract.css";
 function Abstract({ linkagePosts, setLinkagePosts, filteredData, setFilteredData, apiData, setApiData }) {
     const [formData, setFormData] = useState("");
     const [loading, setLoading] = useState(false);
+    
 
     async function fetchApiData() {
         setLoading(true);
@@ -37,10 +38,12 @@ function Abstract({ linkagePosts, setLinkagePosts, filteredData, setFilteredData
         }
     }
 
+    
+
     return (
-        <div className={filteredData.length !== 0 ? "abstractPage-bg" : "bg-ZeroFilterData"}>
-            <div className='text-slate-100 font-serif  text-center text-[2rem] font-normal'>
-                <h2 className=' abstract-heading relative top-5 '>Search here to get your abstract</h2>
+        <div className="abstractPage-bg">
+            <div className='text-slate-100 font-serif text-center text-[2rem] font-normal'>
+                <h2 className='abstract-heading relative top-5'>Search here to get your abstract</h2>
             </div>
             <div className='mt-[2.5rem] text-center'>
                 <form>
@@ -49,7 +52,7 @@ function Abstract({ linkagePosts, setLinkagePosts, filteredData, setFilteredData
                         placeholder='search here'
                         value={formData}
                         onChange={changeHandler}
-                        className=' abstract-searchBar p-4 outline-none w-[50vw] border rounded'
+                        className='abstract-searchBar p-4 outline-none w-[50vw] border rounded'
                     />
                 </form>
             </div>
@@ -59,7 +62,7 @@ function Abstract({ linkagePosts, setLinkagePosts, filteredData, setFilteredData
                 {loading ? (
                     <Spin size='large' className='w-[50vw] ml-[25vw]' />
                 ) : (
-                    <div className='dataCard-container grid grid-cols-3 gap-3 w-[90vw] m-auto max-w-screen-lg'>
+                    <div className='dataCard-container grid grid-cols-3 gap-3 w-[90vw] m-auto max-w-screen-lg' >
                         {filteredData.map((data) => (
                             <DataCard
                                 key={data.id}

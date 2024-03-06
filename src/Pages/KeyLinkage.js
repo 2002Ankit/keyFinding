@@ -17,7 +17,7 @@ function KeyLinkage({ linkagePosts, apiData }) {
 
     return (
         <div className='key-linkage-container'>
-            <div className='key-linkage-card'>
+            <div className='key-linkage-card flex flex-wrap flex-col'>
                 <p className='linkage-title'>{linkagePosts.title}</p>
                 <p className='linkage-description'>{linkagePosts.description}</p>
                 <div className='linkage-info'>

@@ -14,15 +14,15 @@ function DataCard({ data, linkagePosts, setLinkagePosts }) {
             <p className='title'>{data.title}</p>
             <p className='description'>{data.description.split("").slice(0,25).join("")+"....."}</p>
             <div className='info'>
-                <span className='brand'><span className='label'>Brand:</span>{data.brand}</span>
+                <span className='brand'><span className='label'>Brand:</span> {data.brand}</span>
 
-                <span className='category'>  <span className='label'>Category:</span>{data.category}</span>
+                <span className='category'>  <span className='label'>Category:</span> {data.category}</span>
             </div>
-            <span className='price'>
-                <span className='Price'><span className='price-label'>Price:</span>₹{data.price}</span>
+            <span className='DataCard-price'>
+                <span className='Price'><span className='price-label'>Price:</span> ₹{data.price}</span>
 
-                <span className='rating'><span className='price-label'>Rating:</span>{data.rating}</span>
-                <span className='discount'><span className='price-label'>Discount:</span>{data.discountPercentage}</span>
+                <span className='rating'><span className='price-label'>Rating:</span> {data.rating}</span>
+                <span className='discount'><span className='price-label'>Discount:</span> {data.discountPercentage}</span>
             </span>
             <div className='action'>
                 <Link to="/keylinkage">

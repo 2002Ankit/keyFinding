@@ -1,15 +1,13 @@
 .key-linkage-container {
   width: 100vw;
-  height:100vh;
-  /* background-color: #E8F8F5; */
- background-size: cover;
- position: relative;
+  height: 100vh;
+  background-size: cover;
+  position: relative;
 }
 
 .key-linkage-card {
-  width: 60vw;
+  width: 90vw; 
   margin: auto;
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,38 +15,31 @@
   column-gap: 2rem;
   position: relative;
   top: 3rem;
- 
-
 }
 
 .linkage-title {
   font-size: 24px;
   font-weight: bold;
   color: #626567;
-  /* margin-left: 2rem; */
-  /* margin-top: 2rem; */
-  /* position: relative;
-    top: 6rem;
-    left: ; */
 }
 
-.linkage-info{
- max-width: 60vw;
+.linkage-info {
+  max-width: 90vw; 
   position: relative;
   color: #808B96;
   font-size: 1.2rem;
   font-weight: 500;
   display: flex;
-    flex-wrap: wrap;
+  flex-wrap: wrap;
 }
-.linkage-brand, .linkage-category{
+
+.linkage-brand,
+.linkage-category {
   color: #808B96;
   font-size: 1.2rem;
   font-weight: 500;
   margin-left: 2rem;
 }
-
-
 
 .linkBrand-value,
 .linkCat-value {
@@ -61,10 +52,9 @@
 .linkage-price,
 .linkage-rating,
 .linkage-discount {
-  color: #808B96;  
+  color: #808B96;
   font-size: 1.2rem;
-  font-weight: 500;;
-
+  font-weight: 500;
 }
 
 .linkage-description {
@@ -72,19 +62,6 @@
   margin-left: 2rem;
   font-size: 18px;
 }
-
-.linkage-info span {
-  margin-right: 10px;
-}
-
-/* .linkage-description {
-    margin-top: 10px;
-  } */
-
-.linkage-description span {
-  margin-right: 10px;
-}
-
 
 .linkage-action button {
   background-color: #1890ff;
@@ -100,25 +77,17 @@
   font-weight: 500;
 }
 
-.show-key-downArrow .show-key-UpArrow{
-position: relative;
-bottom: 2px;
-}
-
 .linkage-action button:hover {
   background-color: #40a9ff;
 }
 
 .vos-viewer-container {
   position: relative;
-  width: 80vw;
-  height: 35rem; 
+  width: 90vw; /* Adjusted width for smaller screens */
+  height: 35rem;
   margin-top: 2rem;
   box-shadow: 2px 2px 3px 3px rgb(181, 222, 237);
 }
 
-@media(max-width:800px){
-  .linkage-action button{
-    padding: 6px 6px;
-  }
-}
+
+
